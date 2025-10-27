@@ -12,7 +12,7 @@
   <header class="sticky top-0 z-40 backdrop-blur bg-white/80 border-b">
     <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="{{ route('discover') }}" class="flex items-center gap-2" wire:navigate>
-        <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 shadow"></span>
+        <img src="/logo.png" alt="App Logo" class="w-8 h-8">
         <span class="font-semibold">Air Quality Monitoring System</span>
       </a>
       <nav class="flex items-center gap-4 text-sm">
